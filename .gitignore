@@ -1,0 +1,29 @@
+# === Node (Frontend) ===
+frontend/node_modules/
+frontend/.env
+frontend/.next/
+frontend/dist/
+frontend/build/
+frontend/coverage/
+frontend/.DS_Store
+
+# === Python (Backend) ===
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+backend/env/
+backend/*.pyc
+backend/.env
+backend/.DS_Store
+
+# === Mac system files ===
+.DS_Store
+
+# === VSCode and IDE ===
+.vscode/
+.idea/
+
+# === OS/Editor Temp Files ===
+*.log
+*.swp
+*~
