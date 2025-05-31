@@ -49,12 +49,12 @@ export const fieldGroups = {
     },
   ],
   fileFields: [{ name: "label", label: "Label", type: "text" }],
-  // summaryFields: [
-  //   {
-  //     name: "model",
-  //     label: "Model",
-  //     type: "select",
-  //     options: ["gpt-4", "gemini"],
-  //   },
-  // ],
+  summaryFields: [
+    {
+      name: "model",
+      label: "Model",
+      type: "select",
+      options: ["gpt-4", "gemini"],
+    },
+  ],
 };

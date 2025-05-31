@@ -82,12 +82,12 @@ export const nodeConfigs = {
     inputHandles: [],
     outputHandles: [{ id: "file" }],
   },
-  // summary: {
-  //   title: "Summarize",
-  //   subTitle: "Ai generated text summary",
-  //   icon: MdSummarize,
-  //   fieldsKey: "summaryFields",
-  //   iinputHandles: [{ id: "text" }],
-  //   outputHandles: [{ id: "summary" }],
-  // },
+  summary: {
+    title: "Summarize",
+    subTitle: "Ai generated text summary",
+    icon: MdSummarize,
+    fieldsKey: "summaryFields",
+    iinputHandles: [{ id: "text" }],
+    outputHandles: [{ id: "summary" }],
+  },
 };
